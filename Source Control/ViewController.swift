@@ -21,6 +21,15 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    /**
+     Adds two numbers together and returns the result
+     -- parameter num1: the firt number
+     -- parameter num2: the second number
+     -- returns: the sum of num1 and num2
+     */
+    func addNumbers(num1: Int, num2: Int)-> Int{
+        return num1 + num2
+    }
 
 
 }
